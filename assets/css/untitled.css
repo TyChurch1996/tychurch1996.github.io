@@ -1,0 +1,27 @@
+.btn:hover {
+  color: #bdead9;
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+
+.btn-default {
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: rgb(166,32,32);
+  background-color: var(--bs-danger-text-emphasis);
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: #bdead9;
+  background-color: var(--bs-btn-active-bg);
+  border-color: var(--bs-btn-active-border-color);
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #bdead9;
+  border: 1px solid #42dca3;
+  outline: none;
+  background-color: #42dca3;
+}
+
